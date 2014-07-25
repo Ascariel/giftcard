@@ -649,7 +649,7 @@ section * {
   padding: 0;
   width: 30px;
   height: 30px;
-  background: url("assets/menu-icon@2x.png") 50% no-repeat;
+  background: url("../../startup/common-files/icons/menu-icon@2x.png") 50% no-repeat;
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -1085,7 +1085,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: block;
 }
 .header-6-sub .background {
-  background-image: url(assets/walkway.jpg);
+  background-image: url("../../startup/common-files/img/walkway.jpg");
   opacity: 50;
   filter: alpha(opacity=5000);
   opacity: 0.5;
