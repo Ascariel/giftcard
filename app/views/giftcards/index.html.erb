@@ -1,0 +1,8 @@
+
+
+<p>Testing New View</p>
+
+<p>You are logged in as: <%= @user.name %> </p> 
+
+<h3>You've signed up. Download a free book.</h3>
+<%= link_to 'Download PDF', products_path('product.pdf'), :class => 'btn btn-success btn-large' %>

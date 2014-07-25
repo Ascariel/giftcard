@@ -29,6 +29,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
+    awesome_print (1.2.0)
     bcrypt (3.1.7)
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -112,8 +113,6 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.4)
       sprockets-rails (~> 2.0)
-    rails_apps_pages (0.5.11)
-    rails_apps_testing (0.3.6)
     rails_layout (1.0.20)
     railties (4.1.4)
       actionpack (= 4.1.4)
@@ -188,6 +187,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   better_errors
   binding_of_caller
   bootstrap-sass
@@ -203,8 +203,6 @@ DEPENDENCIES
   pundit
   quiet_assets
   rails (= 4.1.4)
-  rails_apps_pages
-  rails_apps_testing
   rails_layout
   rspec-rails
   sass-rails (~> 4.0.3)
